@@ -8,7 +8,7 @@ const LoginScreen = ({ navigation }) => {
   const [errorMessage, setErrorMessage] = useState('');
   const [isAuthenticated, setIsAuthenticated] = useState(false);  // Add state for authentication
 
-  // Use useEffect to check authentication on component mounts
+  // Use useEffect to check authentication on component mount
   useEffect(() => {
     const checkAuth = async () => {
       const userToken = await AsyncStorage.getItem('userToken');  // Retrieve from AsyncStorage
