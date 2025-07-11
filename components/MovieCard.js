@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     width: 90,  // Increased size for better visibility of the poster
     height: 140,  // Increased height for better aspect ratio
     borderRadius: 8,  // Rounded corners for the poster image
-    borderWidth: 1,  // Light border around the image to define edges
+    borderWidth: 1,  // Light border around the image to define edgesa]
     borderColor: '#EB3678',  // Bright pink border to make it pop
   },
   details: {
