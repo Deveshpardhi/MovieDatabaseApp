@@ -114,7 +114,7 @@ export const fetchTopRatedMovies = async () => {
     const response = await axios.get(`${BASE_URL}/movie/top_rated`, {
       params: {
         api_key: API_KEY,
-        page: 1, // You can change this to get a different page of results
+        page: 1, // You can change this to get a different page of resultsz
       },
     });
         // Get the top 20 movies (the API returns 20 movies per page by default)
