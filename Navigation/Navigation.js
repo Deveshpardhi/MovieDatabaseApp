@@ -206,4 +206,3 @@ const styles = StyleSheet.create({
 });
 
 
-git push -u origin main
