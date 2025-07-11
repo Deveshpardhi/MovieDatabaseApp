@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, Image, ScrollView ,TouchableOpacity} from 'react-native';
 import axios from 'axios';
 import { Rating } from 'react-native-ratings'; // Import the Rating component
-import AsyncStorage from '@react-native-async-storage/async-storage'; // Import AsyncStorage
+import AsyncStorage from '@react-native-async-storage/async-storage'; // Import AsyncStoragez
 import { useWatchlist } from '../context/WatchlistContext';
 
 // API Configuration
