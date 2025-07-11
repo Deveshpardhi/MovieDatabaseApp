@@ -8,7 +8,7 @@ node_modules/
 dist/
 web-build/
 
-# Native
+# Natives
 *.orig.*
 *.jks
 *.p8
