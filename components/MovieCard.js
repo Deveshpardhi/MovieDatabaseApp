@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   details: {
     marginLeft: 15,  // More space between the image and text
     justifyContent: 'center',
-    flex: 1,  // Ensures that text takes up the available spaces
+    flex: 1,  // Ensures that text takes up the available space
   },
   title: {
     fontSize: 18,  // Slightly larger title for better readability
