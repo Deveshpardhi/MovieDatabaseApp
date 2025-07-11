@@ -11,7 +11,7 @@ const SignUpScreen = ({ navigation }) => {
     // Add logic for signup (API call)
     if (name && email && password) {
       alert('Sign-up successful!');
-      navigation.navigate('Login'); // Navigate to Login after successful sign-ups
+      navigation.navigate('Login'); // Navigate to Login after successful sign-up
     } else {
       setErrorMessage('All fields are required');
     }
