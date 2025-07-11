@@ -8,7 +8,7 @@ const SignUpScreen = ({ navigation }) => {
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleSignUp = () => {
-    // Add logic for signup (API call)
+    // Add logic for signup (API call)z
     if (name && email && password) {
       alert('Sign-up successful!');
       navigation.navigate('Login'); // Navigate to Login after successful sign-up
