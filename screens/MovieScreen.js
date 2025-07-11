@@ -5,7 +5,7 @@ import SearchBar from '../components/SearchBar';
 
 const MoviesScreen = ({ route, navigation }) => {
   const { query: initialQuery } = route.params || {}; // Get the initial query from navigation params
-  const [query, setQuery] = useState(initialQuery || ''); // Manage query states
+  const [query, setQuery] = useState(initialQuery || ''); // Manage query state
   const [movies, setMovies] = useState([]);
   const [genres, setGenres] = useState({});
   const [selectedGenres, setSelectedGenres] = useState([]);
