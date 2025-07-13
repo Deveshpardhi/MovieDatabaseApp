@@ -7,7 +7,7 @@ const SearchBar = ({ query, onQueryChange, onSearch }) => {
       <TextInput
         style={styles.input}
         placeholder="Search for a movie..."
-        placeholderTextColor="#EDEDED" // Match the minimalistic themes
+        placeholderTextColor="#EDEDED" // Match the minimalistic themess
         value={query}
         onChangeText={onQueryChange}
         autoCapitalize="none"
