@@ -11,7 +11,7 @@ const LoginScreen = ({ navigation }) => {
   // Use useEffect to check authentication on component mountz
   useEffect(() => {
     const checkAuth = async () => {
-      const userToken = await AsyncStorage.getItem('userToken');  // Retrieve from AsyncStorage
+      const userToken = await AsyncStorage.getItem('userToken');  // Retrieve from AsyncStorag
       setIsAuthenticated(!!userToken);  // Set authentication based on token presence
     };
     checkAuth();
