@@ -10,7 +10,7 @@ const API_KEY = '5c6dd5fb8c7d0cccb6a5da55cef8fe0f';
 const BASE_URL = 'https://api.themoviedb.org/3';
 
 const MovieDetailScreen = ({ navigation,route }) => {
-  const { movie } = route.params; // Get movie data from navigation params
+  const { movie } = route.params; // Get movie data from navigation param
   const [movieDetails, setMovieDetails] = useState(null);
   const [userRating, setUserRating] = useState(0); // Add state for storing user rating
   const [savedRating, setSavedRating] = useState(null); // Add state to track saved rating
