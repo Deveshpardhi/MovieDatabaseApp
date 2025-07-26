@@ -15,7 +15,7 @@ const MovieDetailScreen = ({ navigation,route }) => {
   const [userRating, setUserRating] = useState(0); // Add state for storing user rating
   const [savedRating, setSavedRating] = useState(null); // Add state to track saved rating
   const [newReview, setNewReview] = useState(''); // Add state for new review input
-  const [reviews, setReviews] = useState([]); // State to store all reviews for the movi
+  const [reviews, setReviews] = useState([]); // State to store all reviews for the movie
   const [watchlist, setWatchlist] = useState([]);
   const { addToWatchlist } = useWatchlist();
 
