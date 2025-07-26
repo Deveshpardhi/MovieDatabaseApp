@@ -20,7 +20,7 @@ const LoginScreen = ({ navigation }) => {
   const handleLogin = () => {
     if (email === 'test@example.com' && password === 'password') {
      
-      AsyncStorage.setItem('userToken', 'some_token'); // Save token for authentication
+      AsyncStorage.setItem('userToken', 'some_token'); // Save token for authenticatio
       setIsAuthenticated(true);  // Set authentication here
       navigation.replace('Home');
        alert('Login successful!');
