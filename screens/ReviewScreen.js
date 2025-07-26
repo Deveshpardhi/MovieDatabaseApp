@@ -4,7 +4,7 @@ import { View, Text, TextInput, FlatList, Button, StyleSheet } from 'react-nativ
 
 const ReviewScreen = ({ route }) => {
   const { movieId } = route.params;
-  const [reviews, setReviews] = useState([]); // Mock reviews dat
+  const [reviews, setReviews] = useState([]); // Mock reviews da
   const [newReview, setNewReview] = useState('');
 
   const addReview = () => {
