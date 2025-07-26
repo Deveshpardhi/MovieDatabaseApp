@@ -4,7 +4,7 @@ import { fetchMovies, fetchGenres } from '../services/api';
 import SearchBar from '../components/SearchBar';
 
 const MoviesScreen = ({ route, navigation }) => {
-  const { query: initialQuery } = route.params || {}; // Get the initial query from navigation params
+  const { query: initialQuery } = route.params || {}; // Get the initial query from navigation param
   const [query, setQuery] = useState(initialQuery || ''); // Manage query state
   const [movies, setMovies] = useState([]);
   const [genres, setGenres] = useState({});
