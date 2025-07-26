@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     marginVertical: 10, // Minimal spacing
-    paddingHorizontal: 10, // Compact padding
+    paddingHorizontal: 10, // Compact paddings
     backgroundColor: '#171717', // Dark background for the container
     borderRadius: 8, // Slightly rounded corners for a clean look
   },
