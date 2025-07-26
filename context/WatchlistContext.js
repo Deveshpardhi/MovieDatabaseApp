@@ -24,3 +24,4 @@ const removeFromWatchlist = (id) => {
 };
 
 export const useWatchlist = () => useContext(WatchlistContext);
+// 
