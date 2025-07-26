@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
   },
   rating: {
     fontSize: 14,
-    color: '#444444', // Neutral color for ratings
+    color: '#444444', // Neutral color for rating
     textAlign: 'center',
   },
 });
