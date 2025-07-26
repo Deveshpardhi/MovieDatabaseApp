@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     height: 140,  // Increased height for better aspect ratio
     borderRadius: 8,  // Rounded corners for the poster image
     borderWidth: 1,  // Light border around the image to define edgesa]
-    borderColor: '#EB3678',  // Bright pink border to make it po
+    borderColor: '#EB3678',  // Bright pink border to make it pop
   },
   details: {
     marginLeft: 15,  // More space between the image and text
