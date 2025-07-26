@@ -11,7 +11,7 @@ const MoviesScreen = ({ route, navigation }) => {
   const [selectedGenres, setSelectedGenres] = useState([]);
 
   useEffect(() => {
-    // Fetch movies based on query
+    // Fetch movies based on querys
     const loadMovies = async () => {
       const movieList = await fetchMovies(query);
       setMovies(movieList);
