@@ -127,7 +127,7 @@ export const fetchTopRatedMovies = async () => {
 
 // services/api.js
 export const fetchMovieDetails = (movieId) => {
-  // You can replace this with an actual API cal
+  // You can replace this with an actual API ca
   return fetch(`https://api.example.com/movies/${movieId}`)
     .then(response => response.json())
     .catch(error => console.error('Error fetching movie details:', error));
